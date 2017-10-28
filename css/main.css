@@ -98,13 +98,17 @@ header .box a:nth-child(4){ /* boton become a driver */
   border-radius: 9%;
 }
 
-header .box a:nth-child(5){ /* sign uṕp */
+header .box a:nth-child(5){ /* sign up */
   display: inline-block;
   font-size: 110%;
   color: #728099;
   font-weight: 300;
   margin-left: 40px;
   margin-top: 25px;
+}
+
+header .box a:nth-child(5):hover{  /* NUEVO ARREGLO  */
+  color: #FF00BF;
 }
 
 header .box p { /* ultimo texto */
@@ -122,6 +126,10 @@ header .box p a{ /* caracteristica del a del p */
   text-decoration: none;
 }
 
+header .box p a:hover{   /* NUEVO ARREGLO  */
+  color: #ff00ba;
+  text-decoration:underline;
+}
 .contenedor{ /* section */
   width: 1290px;
   height: 710px;
@@ -284,7 +292,7 @@ header .box p a{ /* caracteristica del a del p */
 footer{  /* pie de pagina */
   background-color: #333447;
   width: 1290px;
-  height: 610px;
+  height: 530px;
   margin-top: -5px;
 }
 footer div{
@@ -307,23 +315,52 @@ footer h3{
   font-weight: 500;
 }
 
-footer p{
+footer p{  /* NUEVO ARREGLO */
   margin-bottom: 18px;
+  font-weight: 300;
 }
 
 footer .app{
   display: inline-block;
-  margin-left: 880px;
+  margin-left: 950px;
   width: 200px;
-  margin-top: -190px;
+  margin-top: -200px;
 }
 
-footer .app img:nth-child(2) {
+footer .app a img{  /*NUEVO ARREGLO */
+  width: 100px;
+  margin-top: 30px;
+}
+
+footer .app img:last-child{  /*NUEVO ARREGLO */
   width: 137px;
   margin-top: 30px;
 }
 
-footer .app img:nth-child(3) {
-  width: 137px;
+footer .iconos{  /*NUEVO ARREGLO */
+
+  margin-left: 500px;
+  margin-top: 70px;
+}
+
+footer .iconos a img{  /*NUEVO ARREGLO */
+  width: 5%;
+  margin-right: 40px;
+}
+
+footer hr{  /*NUEVO ARREGLO */
+  display: inline-block;
+  margin-top: 420px;
+  margin-left: -430px;
+  width: 650px;
+  border: .6px solid white;
+}
+
+footer span {  /*NUEVO ARREGLO */
+  display: block;
+  color: white;
   margin-top: 30px;
+  margin-left: 490px;
+  font-weight: 300;
+
 }
