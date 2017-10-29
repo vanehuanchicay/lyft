@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-body{
+body{ /* tipografía general */
   font-family: Montserrat;
 }
 
@@ -12,7 +12,7 @@ header img{  /* imagen header */
   margin-top: -100px;
 }
 
-header a img{
+header a img{ /* logo lyft*/
   display: inline;
   position: absolute;
   margin-top: -590px;
@@ -20,13 +20,13 @@ header a img{
   width: 5%;
 }
 
-header .top{
+header nav{ /* menú navegación */
   position: absolute;
   margin-top: -580px;
   margin-left: 780px;
 }
 
-header .top a{
+header nav a{ /* agregando propiedades a anchor */
   color: white;
   text-decoration: none;
   font-size: 19px;
@@ -34,18 +34,18 @@ header .top a{
   padding: 0 13px;
 }
 
-header .top a:last-child{
+header nav a:last-child{ /* agregando propiedades al último hijo de nav*/
   border: 1px solid white;
   border-radius: 10%;
   padding: 10px 14px;
   margin-left: 20px;
 }
 
-header a:hover{
+header a:hover{ /* agregando propiedades a anchor al momento de pasar el mouse*/
   color: #FF00BF;
 }
 
-header .box{ /* caja blanca */
+.box{ /* caja blanca esquina superior */
   position: absolute;
   width: 505px;
   height:420px;
@@ -54,7 +54,7 @@ header .box{ /* caja blanca */
   background-color: white;
 }
 
-header .box h1{ /* titulo */
+.box h1{ /* título */
   display: block;
   width: 280px;
   font-size: 250%;
@@ -64,7 +64,7 @@ header .box h1{ /* titulo */
   margin-top: 60px;
 }
 
-header .box h5{ /* subtitulo */
+.box h5{ /* subtitulo */
   display: block;
   font-size: 95%;
   color:#352384;
@@ -73,7 +73,7 @@ header .box h5{ /* subtitulo */
   margin-top: 10px;
 }
 
-header .box span{ /* span phone number y borde inferior*/
+.box span{ /* span phone number y borde inferior*/
   display: inline-block;
   font-size: 100%;
   color:#c4c2c2;
@@ -81,11 +81,11 @@ header .box span{ /* span phone number y borde inferior*/
   margin-left: 80px;
   margin-top: 25px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #352384; /* gris*/
+  border-bottom: 1px solid #352384;
   width: 425px;
 }
 
-header .box a:nth-child(4){ /* boton become a driver */
+.box a:nth-child(4){ /* anchor become a driver */
   display: inline-block;
   text-decoration: none;
   font-size: 110%;
@@ -93,12 +93,12 @@ header .box a:nth-child(4){ /* boton become a driver */
   font-weight: 400;
   margin-left: 80px;
   margin-top: 25px;
-  background-color:#ff00ba; /* rosado */
+  background-color:#ff00ba;
   padding: 16px;
   border-radius: 9%;
 }
 
-header .box a:nth-child(5){ /* sign up */
+.box a:nth-child(5){ /* anchor sign up */
   display: inline-block;
   font-size: 110%;
   color: #728099;
@@ -107,11 +107,11 @@ header .box a:nth-child(5){ /* sign up */
   margin-top: 25px;
 }
 
-header .box a:nth-child(5):hover{  /* NUEVO ARREGLO  */
+.box a:nth-child(5):hover{  /* hover a quinto hijo que corresponde a un anchor*/
   color: #FF00BF;
 }
 
-header .box p { /* ultimo texto */
+.box p { /* último texto */
   display: inline-block;
   font-size: 80%;
   color: #728099;
@@ -121,30 +121,31 @@ header .box p { /* ultimo texto */
   width: 380px;
 }
 
-header .box p a{ /* caracteristica del a del p */
+.box p a{ /* caracteristica para anchor correspondiente al párrafo */
   color: #ff00ba;
   text-decoration: none;
 }
 
-header .box p a:hover{   /* NUEVO ARREGLO  */
+.box p a:hover{   /* propiedades para anchor dentro del párrafo */
   color: #ff00ba;
   text-decoration:underline;
 }
-.contenedor{ /* section */
+
+.contenedor{ /* contenido principal primera sección */
   width: 1290px;
   height: 710px;
   margin-top: -130px;
   background: linear-gradient(#76278F, #2B1E66); /*(to bottom, rgba(118,39,143,1), rgba(43,30,102,1));*/
 }
 
-.contenedor img{ /* phone flotante*/
+.contenedor img{ /* png Iphone */
   position: absolute;
   width: 37%;
   margin-left: 700px;
   margin-top: 100px;
  }
 
-.contenedor ul{ /* lista con textos del section */
+.contenedor ul{ /* lista con textos del sección */
   position: absolute;
   float: left;
   list-style: none;
@@ -153,13 +154,13 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: 200px;
  }
 
-.contenedor ul li:nth-child(odd){ /* li impares titulos */
+.contenedor ul li:nth-child(odd){ /* li impares que corresponde a los títulos */
   font-size: 180%;
   font-weight: 400;
   margin-bottom: 85px;
  }
 
-.contenedor ul li:nth-child(even){ /* li pares subtitulos*/
+.contenedor ul li:nth-child(even){ /* li pares que corresponde a subtítulos*/
   font-size: 110%;
   font-weight: 300;
   width: 450px;
@@ -168,12 +169,12 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-bottom: 50px;
  }
 
-.contenedordos{ /* segundo section */
+.contenedordos{ /* segunda sección */
   width: 1290px;
   height: 386px;
 }
 
-.contenedordos ul { /* ul contenedor dos*/
+.contenedordos ul { /* lista desordenada*/
   list-style: none;
   display: inline-block;
   margin-left: 45px;
@@ -185,7 +186,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   letter-spacing: 2px;
 }
 
-.contenedordos ul li:nth-child(2){ /* ul contenedor dos segundo hijo ,Amplify your ride*/
+.contenedordos ul li:nth-child(2){ /* segundo hijo de ul..título Amplify your ride*/
   list-style: none;
   margin-top: 5px;
   font-size: 180%;
@@ -194,7 +195,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: 10px;
 }
 
-.contenedordos ul li:nth-child(3){ /* ul contenedor dos tercer hijo, texto*/
+.contenedordos ul li:nth-child(3){ /* tercer hijo de ul, texto general*/
   list-style: none;
   margin-top: 5px;
   font-size: 110%;
@@ -208,13 +209,13 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: 0px;
 }
 
-.contenedortres{ /* tercer section */
+.contenedortres{ /* tercera sección */
   margin-top: 49px;
   width: 1290px;
   height: 440px;
 }
 
-.contenedortres ul { /* ul contenedor dos, watch*/
+.contenedortres ul { /* lista desordenada */
   list-style: none;
   display: inline-block;
   margin-left: 850px;
@@ -226,7 +227,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   letter-spacing: 2px;
 }
 
-.contenedortres ul li:nth-child(2){ /* ul contenedor tres segundo hijo ,June*/
+.contenedortres ul li:nth-child(2){ /* segundo hijo de ul ,título June*/
   list-style: none;
   margin-top: 5px;
   font-size: 180%;
@@ -235,7 +236,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: 10px;
 }
 
-.contenedortres ul li:nth-child(3){ /* ul contenedor tres tercer hijo, texto*/
+.contenedortres ul li:nth-child(3){ /* tercer hijo ul, texto general*/
   list-style: none;
   margin-top: 5px;
   font-size: 110%;
@@ -249,12 +250,12 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: -306px;
 }
 
-.contenedorcuatro{ /*  section cuatro */
+.contenedorcuatro{ /*  cuarta sección */
   width: 1290px;
   height: 435px;
 }
 
-.contenedorcuatro ul{
+.contenedorcuatro ul{ /* lista desordenada */
   list-style: none;
   display: inline-block;
   margin-left: 45px;
@@ -266,7 +267,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   letter-spacing: 2px;
 }
 
-.contenedorcuatro ul li:nth-child(2){ /* ul contenedor 4 segundo hijo ,A good thing*/
+.contenedorcuatro ul li:nth-child(2){ /* segundo hijo ul, título A good thing*/
   list-style: none;
   margin-top: 5px;
   font-size: 180%;
@@ -275,7 +276,7 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   margin-top: 10px;
 }
 
-.contenedorcuatro ul li:nth-child(3){ /* ul contenedor 4 tercer hijo, texto*/
+.contenedorcuatro ul li:nth-child(3){ /* tercer hijo ul, texto general*/
   list-style: none;
   margin-top: 5px;
   font-size: 110%;
@@ -284,71 +285,73 @@ header .box p a:hover{   /* NUEVO ARREGLO  */
   line-height: 25px;
 }
 
-.contenedorcuatro .video { /* tercer video */
+.contenedorcuatro .video { /* cuarto video */
   float: right;
   margin-top: -5px;
 }
 
-footer{  /* pie de pagina */
+footer{  /* pie de página */
   background-color: #333447;
   width: 1290px;
   height: 530px;
   margin-top: -5px;
 }
-footer div{
+
+footer div{ /* propiedades de los div */
   float: left;
   margin-left: 150px;
   margin-top: 60px;
 }
-footer a{
+
+footer a{ /* propiedades de anchor dentro de los div */
   color: white;
   text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover{ /* propiedades de hover anchor dentro de los div */
   color: #FF00BF;
   text-decoration: none;
 }
 
-footer h3{
+footer h3{ /* propiedades de los h3, títulos*/
   margin-bottom: 20px;
   font-weight: 500;
 }
 
-footer p{  /* NUEVO ARREGLO */
+footer p{  /* propiedades a los párrafos */
   margin-bottom: 18px;
   font-weight: 300;
 }
 
-footer .app{
+footer .app{ /* imágenes aplicaciones */
   display: inline-block;
   margin-left: 950px;
   width: 200px;
   margin-top: -200px;
 }
 
-footer .app a img{  /*NUEVO ARREGLO */
+footer .app a img{  /*propiedades a img google*/
   width: 100px;
   margin-top: 30px;
 }
 
-footer .app img:last-child{  /*NUEVO ARREGLO */
+footer .app img:last-child{  /*propiedades a img microsoft*/
   width: 137px;
   margin-top: 30px;
 }
 
-footer .iconos{  /*NUEVO ARREGLO */
+footer .iconos{  /* iconos RRSS*/
 
   margin-left: 500px;
   margin-top: 70px;
 }
 
-footer .iconos a img{  /*NUEVO ARREGLO */
+footer .iconos a img{  /*propiedades para img dentro de un anchor */
   width: 5%;
   margin-right: 40px;
 }
 
-footer hr{  /*NUEVO ARREGLO */
+footer hr{  /*línea divisoria  */
   display: inline-block;
   margin-top: 420px;
   margin-left: -430px;
@@ -356,11 +359,10 @@ footer hr{  /*NUEVO ARREGLO */
   border: .6px solid white;
 }
 
-footer span {  /*NUEVO ARREGLO */
+footer span {  /* cierre  */
   display: block;
   color: white;
   margin-top: 30px;
   margin-left: 490px;
   font-weight: 300;
-
 }
